@@ -40,3 +40,10 @@ p {
     text-align: center;
     animation: imgcontainer 9s linear infinite;
 }
+
+.baia {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
