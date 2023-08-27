@@ -47,3 +47,7 @@ p {
     margin: auto;
     text-align: center;
 }
+
+th {
+    padding: 50px;
+}
