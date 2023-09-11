@@ -1,6 +1,6 @@
 body {
     background-image: url(ddc80d33c3de8bad443fc49ea9e693d2.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 .texto {
@@ -46,8 +46,4 @@ p {
     width: 200px;
     margin: auto;
     text-align: center;
-}
-
-th {
-    padding: 50px;
 }

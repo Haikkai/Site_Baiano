@@ -13,8 +13,8 @@
     <div class="navbar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid" style="background-color: black;">
-          <span class="textom" class="navbar-brand" href="#">BAIANO CREEPY PASTA</span>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="textom" class="navbar-brand" href="index.html">BAIANO CREEPY PASTA</a>
+          <button style="background-color: rgb(255, 255, 255);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -24,6 +24,11 @@
               </li>
               <li class="nav-item">
                 <a class="textom" class="nav-link" href="segredo.html">Segredo</a>
+              <li class="nav-item">
+                
+              <li class="nav-item">
+                <a class="textom" class="nav-link active" aria-current="page" href="escolha.html">Escolha</a>
+              </li>
               </li>
             </ul>
           </div>
@@ -32,6 +37,42 @@
     </div>
     
     <h1 class="texto">BAIANO</h1>
+
+    <audio id="myAudio">
+      <source src="X2Download.app - ERA - Ameno (64 kbps).mp3" type="audio/mpeg">
+      Seu navegador não suporta o elemento de áudio.
+  </audio>
+  
+
+  <script>
+      var audio = document.getElementById("myAudio");
+      var playPauseButton = document.getElementById("playPause");
+      var userInteracted = false;
+
+      // Função para iniciar a reprodução da música após a interação do usuário
+      function iniciarReproducao() {
+          if (!userInteracted) {
+              userInteracted = true;
+              audio.play();
+              playPauseButton.textContent = "Parar";
+          }
+      }
+
+      // Adicionar manipuladores de eventos para interações de usuário
+      document.addEventListener("click", iniciarReproducao);
+      document.addEventListener("keydown", iniciarReproducao);
+
+      // Manipulador de eventos para o botão
+      playPauseButton.addEventListener("click", function() {
+          if (audio.paused) {
+              audio.play();
+              playPauseButton.textContent = "Parar";
+          } else {
+              audio.pause();
+              playPauseButton.textContent = "Iniciar";
+          }
+      });
+  </script>
     
     <!-- Imagem girando baiano-->
     <div class="imgcontainer">
@@ -51,8 +92,9 @@
         Guiado por um senso de dever e amizade, eu me aventurei naquela caverna sombria. O ar estava carregado com uma energia maligna e os corredores pareciam não ter fim. Finalmente, cheguei a uma câmara onde o amuleto repousava em um pedestal. Eu sabia que, ao pegá-lo, poderia selar Baiano novamente.
         No entanto, o momento da vitória foi interrompido quando uma voz sussurrou atrás de mim. Era Baiano, de alguma forma presente, e ele estava furioso. Com um rugido, ele desencadeou um vendaval de sombras e escuridão em minha direção. Corri desesperadamente, mal conseguindo escapar da caverna antes que suas trevas me engolissem por completo.
         Agora estou aqui, contando essa história para você, com um coração acelerado e um medo profundo. O aviso é claro: jamais se aproxime daquela caverna. Ela está ligada a forças que o homem não deveria conhecer, e Baiano está à espreita, esperando para retomar seu domínio.
-        E com isso, deixo você com um alerta: cuidado com a curiosidade, ela pode levá-lo a lugares inimagináveis e inescapáveis, onde a escuridão prevalece e o sono eterno aguarda.</p>
+        E com isso, deixo você com um alerta: cuidado com a curiosidade, ela pode levá-lo a lugares inimagináveis e inescapáveis, onde a escuridão prevalece e o sono eterno aguarda.
+    </p>
 
-        
+    <p> Versão 1.1.0 </p>
     </body>
 </html>

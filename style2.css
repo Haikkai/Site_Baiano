@@ -1,0 +1,39 @@
+body {
+    background-color: firebrick;
+    background-image: url(DALL-E-2023-02-11-18.06.40---digital-art-of-the-bird-from-twitter-dying.png);
+    background-size: 500px;
+}
+
+label, textarea {
+    display: block;
+    justify-content: center;
+}
+
+.buttone {
+    text-align: center;
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea {
+    text-align: center;
+    margin: 15px 0;
+    width: 1345px;
+    height: 200px
+}
+
+p {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.textom {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
